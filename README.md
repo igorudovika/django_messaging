@@ -17,10 +17,16 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 
+#### Run Tests
+```
+python3 manage.py test
+```
+
 #### Work
 1. Open http://localhost:8000 url in browser. Hoping work procedure is clear from UI.
 2. Database instance is in repo.
-Second user: sender2, password: sender2Message.
+Admin user: sender1, password: sender1Message
+Second user: sender2, password: sender2Message
 3. To add more users, please use Django admin panel: http://localhost:8000/admin
 4. If you prefer to work with clear env, just delete database file and rerun migrations.
 
